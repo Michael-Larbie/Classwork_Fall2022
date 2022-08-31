@@ -1,6 +1,6 @@
 # Patient Health Database
 
-Autho: Michael Larbie
+Author: Michael Larbie
 
 ## Purpose
 THe code in this repository will run a ptient health database
