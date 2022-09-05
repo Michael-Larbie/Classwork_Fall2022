@@ -1,6 +1,7 @@
 def interface():
     print("My Program")
     print("Options:")
+    print("1 - Analyze HDL")
     print("9 - Quit")
     keep_running = True
     while keep_running:
