@@ -41,7 +41,7 @@ def input_LDL():
     LDL_input = input("Enter the LDL value:")
     return int(LDL_input)
 
-def check_LDL(LDL_Value):
+def check_LDL(LDL_value):
     if LDL_value < 130:
         return "Normal"
     elif 130 <= LDL_value <= 159:
@@ -63,7 +63,7 @@ def input_Cholesterol():
     Cholesterol_input = input("Enter the Cholesterol value:")
     return int(Cholesterol_input)
 
-def check_Cholesterol(Cholesterol_Value):
+def check_Cholesterol(Cholesterol_value):
     if Cholesterol_value < 200:
         return "Normal"
     elif 200 <= Cholesterol_value <= 239:
