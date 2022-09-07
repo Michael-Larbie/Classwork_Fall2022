@@ -1,3 +1,6 @@
+print("This is the blood_calculator.py module. ")
+print("Python thinks this called {}".format(__name__))
+
 def interface():
     print("My Program")
     print("Options:")
@@ -79,4 +82,5 @@ def Cholesterol_driver():
 def output_Cholesterol_result(Cholesterol_value, charac):
     print("The results for an Cholesterol value {} is {}".format(Cholesterol_value, charac))
 
-interface() 
+if __name__ == "__main__":
+    interface() 
