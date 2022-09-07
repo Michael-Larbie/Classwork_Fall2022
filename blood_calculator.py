@@ -74,9 +74,9 @@ def check_Cholesterol(Cholesterol_value):
 def Cholesterol_driver():
     Cholesterol_value = input_Cholesterol()
     answer = check_Cholesterol(Cholesterol_value)
-    output_Cholesterol_result(ldl_value, answer)
+    output_Cholesterol_result(Cholesterol_value, answer)
 
-def output_Cholesterol_result_result(ldl_value, charac):
+def output_Cholesterol_result(Cholesterol_value, charac):
     print("The results for an Cholesterol value {} is {}".format(Cholesterol_value, charac))
 
 interface() 
