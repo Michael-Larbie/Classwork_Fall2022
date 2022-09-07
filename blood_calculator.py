@@ -18,7 +18,7 @@ def input_HDL():
     HDL_input = input("Enter the HDL value:")
     return int(HDL_input)
     
-def check_HDL():
+def check_HDL(HDL_value):
     if HDL_value >= 60:
         return "Normal"
     elif 40 <= HDL_value < 60:
@@ -31,14 +31,14 @@ def HDL_driver():
     answer = check_HDL(hdl_value)
     output_HDL_result(hdl_value, answer)
 
-def output_HDL_result(hdll_value, charac):
+def output_HDL_result(hdl_value, charac):
     print("The results for an HDL value {} is {}".format(hdl_value, charac))
     
 def input_LDL():
     LDL_input = input("Enter the LDL value:")
     return int(LDL_input)
 
-def check_LDL():
+def check_LDL(LDL_Value):
     if LDL_value > 130:
         return "Normal"
     elif 130 <= LDL_value <= 159:
